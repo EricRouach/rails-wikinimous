@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :find_article, only: [:show, :edit, :update, :destroy]
+  before_filter :authorize, except: [:index]
   def index
     @article = Article.all
   end
