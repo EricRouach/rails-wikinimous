@@ -1,0 +1,74 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ul {
+  list-style-type:none;
+}
+
+li {
+  list-style-type:none;
+}
+.container {
+  text-align: center;
+}
+
+#editi {
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 1px 1px 1px #D7D7D7;
+  width: 600px;
+  height: 250px;
+  padding: 10px;
+  text-align: center
+}
+
+.edit_article {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card-article {
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 1px 1px 1px #D7D7D7;
+  width: 100%;
+  padding: 50px 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-article-buttons {
+  margin-top: 30px;
+}
+
+.card-article-title {
+  margin-top: 30px;
+}
+
+.link {
+  margin-bottom: 40px;
+}
+
+.button {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  opacity: 0.8;
+  background: #2F96E8;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: white;
+}
+
+
+#button1 {
+  margin-top: 30px;
+  position: relative;
+}

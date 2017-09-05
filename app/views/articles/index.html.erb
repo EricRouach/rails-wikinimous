@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <ul>
+      <% @article.each do |article| %>
+      <li>
+        <div class="col-xs-6 col-xs-offset-2">
+          <div class="card-article">
+            <div class="card-article-title">
+              <%= link_to article.title, article_path(article), class: "link"  %>
+            </div>
+            <div class="card-article-buttons"> <%= link_to 'Edit this article', edit_article_path(article), class: "link button" %>
+              <%= link_to 'Delete!', article_path(article), method: :delete, class: "link button" %>
+            </div>
+          </div>
+        </div>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
